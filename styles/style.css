@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat+Alternates:wght@700&family=PT+Serif:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 14px;
+}
+
+.content-container {
+  max-width: 1440px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  font-family: "PT Serif", serif !important;
+  background-color: var(--color-background);
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--color-black) !important;
+}
+
+:is(h1, h2, h3, h4, h5, h6, p) {
+  color: var(--color-black) !important;
+}
+
+/*======================================== Header CSS starts here ================================================*/
+
+.navbar {
+  display: flex;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo a {
+  font-size: 3rem;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.logo {
+  flex-basis: 30%;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 70%;
+}
+
+.navbar-nav a {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/*======================================== Section 1 CSS starts here ================================================*/
+
+.section1 {
+  background-color: #f7f2d8;
+}
+
+.section1-top {
+  background-image: url(../images/Frame\ 52984721.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 8rem 3rem;
+}
+
+.button-yellow {
+  color: #eaf586 !important;
+}
+
+.section1-top h1 {
+  font-size: 5rem !important;
+  font-family: "PT Serif", serif;
+  max-width: 45rem;
+  font-weight: 700;
+  line-height: 5rem !important;
+}
+
+sub {
+  font-size: 1rem !important;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+}
+
+/*======================================== Section 2 CSS starts here ================================================*/
+
+.section2 {
+  background: linear-gradient(
+    180deg,
+    #ededf5 43.29%,
+    rgba(246, 246, 210, 0.24) 66.44%
+  );
+  padding: 8rem 0;
+}
+
+h2 {
+  font-size: 3rem !important;
+}
+
+.section2-top-tabs {
+  border-bottom: 1px solid grey;
+}
+
+.section2-tabs.active {
+  border-bottom: 2px solid black;
+}
+
+
+.card1 {
+  background: url(../images/back-card.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button-shadow {
+  background: #eaf586 !important;
+  width: 50%;
+  border: 1px solid black !important;
+  align-self: center;
+  box-shadow: 0.3rem 0.3rem 0 #fbfbf9;
+}
+
+.section2-bottom-divs .section2-bottom-div {
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(177, 177, 177, 0.726);
+}
+
+.section2-bottom-div:first-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.section2-bottom-div:last-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/*======================================== Section 3 CSS starts here ================================================*/
+
+.section3 {
+  padding: 8rem 0 4rem;
+  background-color: #fbfbf9;
+}
+
+.section3-middle-divs {
+  position: relative;
+  line-height: 1.6rem;
+  border-radius: 1rem;
+}
+
+.section3-middle-div1,
+.section3-middle-div3 {
+  margin-top: 6rem !important;
+  background-color: #f6f7d4;
+}
+
+.section3-middle-div2 {
+  margin-top: 3rem !important;
+  background-color: #ededf5;
+  height: 14rem !important;
+}
+
+.section3-middle-div4 {
+  margin-top: 6rem !important;
+  background-color: #fcf5ea;
+}
+
+.section3-middle-div5 {
+  margin-top: 2rem !important;
+  height: 14rem !important;
+  background-color: #f6f7d4;
+}
+
+.elipse1 {
+  position: absolute;
+  top: -4rem;
+  right: 1rem;
+}
+
+.vector {
+  position: absolute;
+  bottom: -0.5rem;
+  left: -0.5rem;
+}
+
+.elipse2 {
+  position: absolute !important;
+  bottom: -4rem;
+  right: 3rem;
+}
+
+.elipse3 {
+  position: absolute;
+  bottom: -4rem;
+  right: 3rem;
+}
+
+.section3-bottom {
+  background-image: url(../images/pexels-anna-shvets-4672717.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  margin: 0 auto;
+  height: 53.5rem;
+  border-radius: 1rem;
+  position: relative;
+  top: 15rem;
+}
+
+/*======================================== Section 4 CSS starts here ================================================*/
+
+.section4 {
+  background: linear-gradient(180deg, #fdf5e9 0%, #ededf5 100%),
+    linear-gradient(180deg, #ededf5 43.29%, rgba(246, 246, 210, 0.24) 66.44%);
+  padding: 15rem 0 8rem;
+}
+
+.carousel-indicators button {
+  border-radius: 50%;
+  background-color: black !important;
+  width: 0.5rem !important;
+  height: 0.5rem !important;
+}
+
+.forward {
+  background-color: black;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  padding-top: 0.6rem;
+}
+
+.sec4-bottom-div1 {
+  height: 35.4rem !important;
+  background-image: url(../images/back-card.jpg);
+  background-size: cover;
+  align-items: flex-end !important;
+  display: flex;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+/*======================================== Section 5 CSS starts here ================================================*/
+
+.section5 {
+  background-color: #fbfbf9;
+  padding: 4rem 0;
+}
+
+.accordion {
+  list-style: none;
+  padding: 0;
+}
+
+.question {
+  cursor: pointer;
+  background-color: transparent;
+  padding: 10px;
+  /* margin: 5px; */
+  position: relative;
+}
+
+.toggle-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2em;
+}
+
+.description {
+  display: none;
+  background-color: transparent;
+  padding: 10px;
+  margin: 5px;
+}
+
+.description.active {
+  display: block;
+}
+
+.section5 ul li {
+  border-bottom: 1px solid rgb(128, 128, 128);
+  padding: 1rem;
+}
+
+.section5 ul li:last-child {
+  border-bottom: none;
+}
+
+/*======================================== Section 6 CSS starts here ================================================*/
+
+.sec6-div1 {
+  background-color: #f7f4d7;
+  padding: 8rem 0;
+}
+
+.sec6-div2 {
+  background-image: url(../images/Image.png);
+  background-size: cover;
+}
+
+/* .card button:hover {
+  opacity: 0.9 !important;
+} */
+
+
+@media (max-width: 992px){
+      .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        flex-basis: 100%;
+        padding: 1rem;
+      }
+      
+      .navbar-nav a {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        font-size: 1.3rem;
+      }
+      .nav-right a {
+        display: none;
+      }
+      .section1-top {
+        background-size: cover;
+        background-position: left;
+        box-shadow: inset 0 0 0 1000px #f7f2d865;
+      }
+}
+@media (max-width: 768px){
+    .section1-top h1 {
+        font-size: 3rem !important;
+        font-weight: 700;
+        line-height: 4rem !important;
+    }
+    h2 {
+        font-size: 2rem !important;
+      }
+    .section2-bottom-div:first-child {
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+      
+    .section2-bottom-div:last-child {
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    .section3-bottom {
+        height: 20rem;
+        top: 10rem;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:576px) {
+  .carousel-inner1 {
+    display: flex !important;
+  }
+
+  .carousel-items1 {
+    display: block !important;
+    margin-right: 0 !important;
+    flex: 0 0 calc(100% / 3) !important;
+  }
+
+  .card {
+    border-radius: 2rem !important;
+    width: 25rem !important;
+    height: 34rem !important;
+    padding: 0 0.5rem;
+  }
+}
+@media (max-width: 575px) {
+    .card {
+        border-radius: 2rem !important;
+        height: 34rem !important;
+        margin: 0 1rem;
+      } 
+}

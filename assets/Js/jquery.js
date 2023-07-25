@@ -1,5 +1,5 @@
 const multipleItemCarousel = document.querySelector('#carouselExampleControls');
-if(window.matchMedia("(min-width:576px)").matches){
+if(window.matchMedia("(min-width:992px)").matches){
     const carousel = new bootstrap.Carousel(multipleItemCarousel,{
         interval: false
     })
@@ -10,14 +10,12 @@ if(window.matchMedia("(min-width:576px)").matches){
 
     $('.carousel-control-next1').on('click', function(){
         if(scrollPosition<(carouselWidth-(cardWidth * 4))){
-            console.log('next');
             scrollPosition = scrollPosition + cardWidth;
             $('.carousel-inner1').animate({scrollLeft:scrollPosition},600);
         }
     });
     $('.carousel-control-prev1').on('click', function(){
         if(scrollPosition > 0){
-            console.log('prev');
             scrollPosition = scrollPosition - cardWidth;
             $('.carousel-inner1').animate({scrollLeft:scrollPosition},600);
         }
